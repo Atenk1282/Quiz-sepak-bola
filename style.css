@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+button:active {
+    background-color: #ccc;
+}
+
+#score-container {
+    text-align: center;
+}
+
+#quiz-container {
+    margin-bottom: 20px;
+}
+
+.option-btn {
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    font-size: 16px;
+}
+
+.option-btn:hover {
+    background-color: #ddd;
+}
+
+/* Warna untuk jawaban benar atau salah */
+.correct {
+    background-color: #4CAF50; /* Hijau untuk jawaban benar */
+    color: white;
+}
+
+.incorrect {
+    background-color: #f44336; /* Merah untuk jawaban salah */
+    color: white;
+}
+
+#next-btn {
+    display: none;
+    margin-top: 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#next-btn:hover {
+    background-color: #007B9D;
+}

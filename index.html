@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Sepak Bola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz-container">
+            <h1>Quiz Sepak Bola</h1>
+            <div id="question-container">
+                <p id="question-text"></p>
+                <div id="options-container">
+                    <button class="option-btn" onclick="checkAnswer(0)"></button>
+                    <button class="option-btn" onclick="checkAnswer(1)"></button>
+                    <button class="option-btn" onclick="checkAnswer(2)"></button>
+                    <button class="option-btn" onclick="checkAnswer(3)"></button>
+                </div>
+            </div>
+            <button id="next-btn" onclick="nextQuestion()">Next Question</button>
+        </div>
+        <div id="score-container" style="display: none;">
+            <h1>Quiz Selesai!</h1>
+            <p>Skor Anda: <span id="score"></span></p>
+            <button onclick="restartQuiz()">Mulai Ulang</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
